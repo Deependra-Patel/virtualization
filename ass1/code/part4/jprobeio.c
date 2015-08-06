@@ -7,7 +7,11 @@
 #include <linux/bio.h>
 #include <linux/blkdev.h>
 #include <linux/list.h>
+#include <linux/sched.h>
+
 #define numPids (1<<15)
+int pid;
+module_param(pid, int, 0);
 
 //Struct used for storing statistic data
 struct info{
@@ -53,7 +57,9 @@ int init_module(void)
 }
 
 void printData(void){
-	int i;	
+	int i;
+	struct task_struct *task = pid_task(find_vpid(pid), PIDTYPE_PID);
+	printk("About process with pid: %d\n Parent id: %d \n", pid, task->real_parent->pid);	
 	for(i = 0; i<numPids; i++){
 		if(infoArr[i].called){
 			printk("PID: %d, No. of Reads: %d, Total Data Read %d bytes, No. of Writes: %d, Total Data Written %d bytes\n", i+1, infoArr[i].nRead, infoArr[i].totalRead, infoArr[i].nWrite, infoArr[i].totalWrite);		
