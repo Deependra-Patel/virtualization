@@ -1,4 +1,4 @@
-/* jprobebio.c
+/* part3.c
   Deependra Patel 120050032
 */
 

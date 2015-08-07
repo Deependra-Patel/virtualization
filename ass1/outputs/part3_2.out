@@ -1,0 +1,11 @@
+[ 1849.276175] PID: 6, No. of Reads: 0, Total Data Read 0 bytes, No. of Writes: 45, Total Data Written 761856 bytes
+[ 1849.276179] PID: 28, No. of Reads: 0, Total Data Read 0 bytes, No. of Writes: 7, Total Data Written 36864 bytes
+[ 1849.276180] PID: 137, No. of Reads: 0, Total Data Read 0 bytes, No. of Writes: 114, Total Data Written 466944 bytes
+[ 1849.276184] PID: 1702, No. of Reads: 0, Total Data Read 0 bytes, No. of Writes: 2, Total Data Written 16384 bytes
+[ 1849.276186] PID: 2030, No. of Reads: 21, Total Data Read 151552 bytes, No. of Writes: 1, Total Data Written 12288 bytes
+[ 1849.276187] PID: 2161, No. of Reads: 0, Total Data Read 0 bytes, No. of Writes: 1, Total Data Written 49152 bytes
+[ 1849.276188] PID: 2168, No. of Reads: 0, Total Data Read 0 bytes, No. of Writes: 17, Total Data Written 106496 bytes
+[ 1849.276196] PID: 6078, No. of Reads: 2, Total Data Read 8192 bytes, No. of Writes: 0, Total Data Written 0 bytes
+[ 1849.276197] PID: 6079, No. of Reads: 6, Total Data Read 32768 bytes, No. of Writes: 0, Total Data Written 0 bytes
+[ 1849.276198] PID: 6081, No. of Reads: 2, Total Data Read 8192 bytes, No. of Writes: 0, Total Data Written 0 bytes
+[ 1849.278588] jprobe unregistered

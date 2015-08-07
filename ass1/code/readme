@@ -1,0 +1,26 @@
+Part 2:
+To compile: make
+To load module: sudo insmod part2.ko
+See message: dmesg
+To remove module: sudo rmmod part2 
+See message: dmesg
+
+
+Part 3:
+To compile: make
+To load module: sudo insmod part3.ko
+See message: dmesg
+To remove module: sudo rmmod part3 
+See message: dmesg
+
+
+Part 4:
+To compile: make
+To load module: sudo insmod part4.ko pid=6
+(inplace of 6 give any pid whose details you want)
+
+See message: dmesg
+To remove module: sudo rmmod part4 
+See message: dmesg
+
+

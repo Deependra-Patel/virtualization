@@ -1,10 +1,10 @@
-#include <linux/module.h>    // included for all kernel modules
-#include <linux/kernel.h>    // included for KERN_INFO
-#include <linux/init.h>      // included for __init and __exit macros
+#include <linux/module.h>    
+#include <linux/kernel.h>   
+#include <linux/init.h>      
 
 MODULE_LICENSE("GPL");
 MODULE_AUTHOR("Deependra Patel");
-MODULE_DESCRIPTION("A Simple test module");
+MODULE_DESCRIPTION("A test module");
 
 static int __init hello_init(void)
 {
